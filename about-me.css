@@ -1,0 +1,72 @@
+/***************************
+This is a Cascading Style Sheet (CSS), which describes rules for styling HTML markup (and this is a comment, which you can delete).
+
+To use this file, link it to your markup by placing a <link> in the <head> of your HTML file:
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+replacing "style.css" with the name of this CSS file.
+
+Learn more about CSS at
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS
+***************************/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+li {
+  display: inline;
+}
+
+div {
+  width: calc( ( 100% / 3) - 40px);
+  float: left;
+  border: 1px solid black;
+  padding: 0px 0px 20px 0px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+div h2 {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+div p,
+div a {
+  margin: 20px;
+}
+
+main {
+  background-color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+a {
+  display: inline-block;
+  padding: 10px 5px 5px;
+  font-size: 20px;
+  color: coral;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: all 250ms;
+  text-decoration: none;
+}
+
+/*:hover pseudo-class */
+/* transition: prop duration */
+a:hover {
+  color: lightcoral;
+  background-color: darkred
+}
+header {
+  color: white;
+}

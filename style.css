@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: crimson;
+  text-decoration-color: white;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: fantasy;
+}
+p {
+  text-align: center;
+}
+
+}
+nav {
+  background-color: aqua;
+  color: white;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+li {
+  display: inline;
+}
+img {
+  border-radius: 100%;
+  align-content: center;
+}
+a {
+  display: inline-block;
+  padding: 10px 5px 5px;
+  font-size: 20px;
+  background-color: black;
+  color: coral;
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: all 250ms;
+}
+
+/*:hover pseudo-class */
+/* transition: prop duration */
+a:hover {
+  color: aquamarine;
+  background-color: darkred
+}
